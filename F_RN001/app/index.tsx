@@ -1,5 +1,6 @@
 import React from 'react';
 import { Text, View, StyleSheet } from 'react-native';
+import { AppRegistry } from 'react-native';
 
 const App = () => {
   return (
@@ -24,3 +25,4 @@ const styles = StyleSheet.create({
 });
 
 export default App;
+AppRegistry.registerComponent('main', () => App);
